@@ -62,4 +62,7 @@ st.markdown(
 # Anzeige des Logos am Seitenende mit kleinerer Breite
 st.markdown("<hr>", unsafe_allow_html=True)  # Trennlinie für besseren Look
 st.image(src='main/school_logo.png', width=150)  # Breite anpassen
-st.markdown("**Created by Mr Übach in collaboration with ChatGPT**", unsafe_allow_html=True)
+# Pfad zum Schullogo
+logo_path = 'main/school_logo.png'
+# Anzeigen des Logos mit angepasster Größe
+st.image(logo_path, width=100)  # Du kannst die Breite nach Bedarf anpassen
