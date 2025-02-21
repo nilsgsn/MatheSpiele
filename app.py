@@ -50,11 +50,9 @@ if st.button("Spiel generieren", key="generate_button"):
         st.markdown("<p style='text-align: center;'>Kein passendes Spiel gefunden.</p>", unsafe_allow_html=True)
 
 # Hinweis ganz unten
-st.markdown("<br><br><br>", unsafe_allow_html=True)  # Fügt Platz ein
-st.markdown("<p style='text-align: center; font-size: smaller;'>created by Mr Übach in collaboration with ChatGPT</p>", unsafe_allow_html=True)
-
-# Anzeige des Logos am Seitenende mit kleinerer Breite
 st.markdown("<hr>", unsafe_allow_html=True)  # Trennlinie für besseren Look
+
+st.markdown("<p style='text-align: center; font-size: smaller;'>made by Nils Übach in collaboration with ChatGPT</p>", unsafe_allow_html=True)
 import streamlit as st
 # URL des Logos
 logo_url = "https://raw.githubusercontent.com/nilsgsn/mathespiele/main/school_logo.png"
