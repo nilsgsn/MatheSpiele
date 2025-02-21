@@ -61,4 +61,8 @@ st.markdown(
 
 # Anzeige des Logos am Seitenende mit kleinerer Breite
 st.markdown("<hr>", unsafe_allow_html=True)  # Trennlinie für besseren Look
-
+import streamlit as st
+# URL des Logos
+logo_url = "https://raw.githubusercontent.com/nilsgsn/mathespiele/main/school_logo.png"
+# Logo anzeigen
+st.image(logo_url, width=150)
