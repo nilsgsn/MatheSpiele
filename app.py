@@ -52,3 +52,8 @@ if st.button("Spiel generieren", key="generate_button"):
 # Hinweis ganz unten
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # Fügt Platz ein
 st.markdown("<p style='text-align: center; font-size: smaller;'>created by Mr Übach in collaboration with ChatGPT</p>", unsafe_allow_html=True)
+
+# Schul-Logo hinzufügen, zentriert und klein
+st.markdown(
+    "<div style='text-align: center;'><img src='school_logo.png' style='max-width: 100px; width: auto; height: auto;'></div>",
+    unsafe_allow_html=True
