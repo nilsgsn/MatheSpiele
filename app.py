@@ -55,6 +55,6 @@ st.markdown("<p style='text-align: center; font-size: smaller;'>created by Mr Ü
 
 # Schul-Logo hinzufügen, zentriert und klein
 st.markdown(
-    "<div style='text-align: center;'><img src='school_logo.png' style='max-width: 100px; width: auto; height: auto;'></div>",
+    "<div style='text-align: center;'><img src='main/school_logo.png' style='max-width: 100px; width: auto; height: auto;'></div>",
     unsafe_allow_html=True
 )
