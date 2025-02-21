@@ -61,7 +61,4 @@ st.markdown(
 
 # Anzeige des Logos am Seitenende mit kleinerer Breite
 st.markdown("<hr>", unsafe_allow_html=True)  # Trennlinie für besseren Look
-# Pfad zum Schullogo
-logo_path = 'main/school_logo.png'
-# Anzeigen des Logos mit angepasster Größe
-st.image(logo_path, width=100)  # Du kannst die Breite nach Bedarf anpassen
+
