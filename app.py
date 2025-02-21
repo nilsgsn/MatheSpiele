@@ -58,3 +58,8 @@ st.markdown(
     "<div style='text-align: center;'><img src='main/school_logo.png' style='max-width: 100px; width: auto; height: auto;'></div>",
     unsafe_allow_html=True
 )
+
+# Anzeige des Logos am Seitenende mit kleinerer Breite
+st.markdown("<hr>", unsafe_allow_html=True)  # Trennlinie für besseren Look
+st.image(src='main/school_logo.png', width=150)  # Breite anpassen
+st.markdown("**Created by Mr Übach in collaboration with ChatGPT**", unsafe_allow_html=True)
